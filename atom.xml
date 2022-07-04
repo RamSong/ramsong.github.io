@@ -1,0 +1,217 @@
+<?xml version="1.0"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://blog.ramsong.cn</id>
+    <title>RamSong</title>
+    <subtitle></subtitle>
+    <icon>https://blog.ramsong.cn/images/favicon.ico</icon>
+    <link href="https://blog.ramsong.cn" />
+    <author>
+      <name>Ram-Song</name>
+    </author>
+    <updated>2022-05-27T16:16:15.000Z</updated>
+    <category term="Web" />
+    <category term="前端" />
+    <category term="笔记" />
+    <category term="博客" />
+    <category term="ramsong" />
+    <category term="Ramsong" />
+    <category term="Ramsong的博客" />
+    <category term="笔记" />
+    <category term="html" />
+    <entry>
+        <id>https://blog.ramsong.cn/2022/05/28/%E5%86%8D%E4%B8%80%E6%AC%A1%EF%BC%8C%E4%BD%A0%E5%A5%BD%EF%BC%8C%E4%B8%96%E7%95%8C%E3%80%82/</id>
+        <title>再一次，你好，世界。</title>
+        <link rel="alternate" href="https://blog.ramsong.cn/2022/05/28/%E5%86%8D%E4%B8%80%E6%AC%A1%EF%BC%8C%E4%BD%A0%E5%A5%BD%EF%BC%8C%E4%B8%96%E7%95%8C%E3%80%82/"/>
+        <content type="html">&lt;h1 id=&#34;前言️&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#前言️&#34;&gt;#&lt;/a&gt; 前言🖐️👋&lt;/h1&gt;
+&lt;div class=&#34;note info&#34;&gt;
+&lt;p&gt;博客终于建好了🍺🍺&lt;/p&gt;
+&lt;/div&gt;
+&lt;h2 id=&#34;介绍&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#介绍&#34;&gt;#&lt;/a&gt; 介绍&lt;/h2&gt;
+&lt;p&gt;历经 &lt;ins&gt;风风雨雨&lt;/ins&gt; ，博客终于驶入了那温暖的 &lt;ins class=&#34;dot&#34;&gt;避风港&lt;/ins&gt;&lt;br /&gt;
+此次版本博客使用静态化的 &lt;span class=&#34;rainbow&#34;&gt;HEXO&lt;/span&gt; ，并且搭配 &lt;mark&gt;Shoka 主题&lt;/mark&gt; ，使用 &lt;span class=&#34;green&#34;&gt;Vercel&lt;/span&gt; &lt;span class=&#34;red&#34;&gt;Netlify&lt;/span&gt; &lt;span class=&#34;yellow&#34;&gt;GithubPage &lt;/span&gt; 等服务部署，文章正常更新，和以往不同的体验📧📧&lt;/p&gt;
+&lt;h2 id=&#34;鸣谢&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#鸣谢&#34;&gt;#&lt;/a&gt; 鸣谢&lt;/h2&gt;
+&lt;div class=&#34;note primary&#34;&gt;
+&lt;p&gt;以下为博客所用服务&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;tab&#34; data-id=&#34;id1&#34; data-title=&#34;资源部署&#34;&gt;
+&lt;p&gt;&lt;div class=&#34;links&#34;&gt;&lt;div class=&#34;item&#34; title=&#34;Vercel&#34; style=&#34;--block-color:#e9546b;&#34;&gt;&lt;span class=&#34;exturl image&#34; data-url=&#34;aHR0cHM6Ly92ZXJjZWwuY29tLw==&#34; data-background-image=&#34;https://ramsong.coding.net/p/blog/d/STATIC-CDN-IMG/git/raw/main/Post/Blog/1/20220604171043.png&#34;&gt;&lt;/span&gt;
+          &lt;div class=&#34;info&#34;&gt;
+          &lt;span class=&#34;exturl title&#34; data-url=&#34;aHR0cHM6Ly92ZXJjZWwuY29tLw==&#34;&gt;Vercel&lt;/span&gt;
+          &lt;p class=&#34;desc&#34;&gt;静态资源部署-主站&lt;/p&gt;
+          &lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;item&#34; title=&#34;Netlify&#34; style=&#34;--block-color:#9d5b8b;&#34;&gt;&lt;span class=&#34;exturl image&#34; data-url=&#34;aHR0cHM6Ly93d3cubmV0bGlmeS5jb20v&#34; data-background-image=&#34;https://ramsong.coding.net/p/blog/d/STATIC-CDN-IMG/git/raw/main/Post/Blog/1/20220604171256.png&#34;&gt;&lt;/span&gt;
+          &lt;div class=&#34;info&#34;&gt;
+          &lt;span class=&#34;exturl title&#34; data-url=&#34;aHR0cHM6Ly93d3cubmV0bGlmeS5jb20v&#34;&gt;Netlify&lt;/span&gt;
+          &lt;p class=&#34;desc&#34;&gt;静态资源部署-镜像站&lt;/p&gt;
+          &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;tab&#34; data-id=&#34;id1&#34; data-title=&#34;网站管理&#34;&gt;
+&lt;p&gt;&lt;div class=&#34;links&#34;&gt;&lt;div class=&#34;item&#34; title=&#34;CloudFlare&#34; style=&#34;--block-color:#e9546b;&#34;&gt;&lt;span class=&#34;exturl image&#34; data-url=&#34;aHR0cHM6Ly9jbG91ZGZsYXJlLmNvbS8=&#34; data-background-image=&#34;https://ramsong.coding.net/p/blog/d/STATIC-CDN-IMG/git/raw/main/Post/Blog/1/20220604172300.png&#34;&gt;&lt;/span&gt;
+          &lt;div class=&#34;info&#34;&gt;
+          &lt;span class=&#34;exturl title&#34; data-url=&#34;aHR0cHM6Ly9jbG91ZGZsYXJlLmNvbS8=&#34;&gt;CloudFlare&lt;/span&gt;
+          &lt;p class=&#34;desc&#34;&gt;DNS解析&lt;/p&gt;
+          &lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;item&#34; title=&#34;Clarity&#34; style=&#34;--block-color:#9d5b8b;&#34;&gt;&lt;span class=&#34;exturl image&#34; data-url=&#34;aHR0cHM6Ly9jbGFyaXR5Lm1pY3Jvc29mdC5jb20v&#34; data-background-image=&#34;https://ramsong.coding.net/p/blog/d/STATIC-CDN-IMG/git/raw/main/Post/Blog/1/20220604172542.png&#34;&gt;&lt;/span&gt;
+          &lt;div class=&#34;info&#34;&gt;
+          &lt;span class=&#34;exturl title&#34; data-url=&#34;aHR0cHM6Ly9jbGFyaXR5Lm1pY3Jvc29mdC5jb20v&#34;&gt;Clarity&lt;/span&gt;
+          &lt;p class=&#34;desc&#34;&gt;网站数据统计&lt;/p&gt;
+          &lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;item&#34; title=&#34;百度&#34; style=&#34;--block-color:#e9546b;&#34;&gt;&lt;span class=&#34;exturl image&#34; data-url=&#34;aHR0cHM6Ly90b25namkuYmFpZHUuY29tLw==&#34; data-background-image=&#34;https://ramsong.coding.net/p/blog/d/STATIC-CDN-IMG/git/raw/main/Post/Blog/1/20220604172736.png&#34;&gt;&lt;/span&gt;
+          &lt;div class=&#34;info&#34;&gt;
+          &lt;span class=&#34;exturl title&#34; data-url=&#34;aHR0cHM6Ly90b25namkuYmFpZHUuY29tLw==&#34;&gt;百度统计&lt;/span&gt;
+          &lt;p class=&#34;desc&#34;&gt;网站数据统计&lt;/p&gt;
+          &lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;item&#34; title=&#34;Letsencrypt&#34; style=&#34;--block-color:#9d5b8b;&#34;&gt;&lt;span class=&#34;exturl image&#34; data-url=&#34;aHR0cHM6Ly9sZXRzZW5jcnlwdC5vcmcvemgtY24v&#34; data-background-image=&#34;https://ramsong.coding.net/p/blog/d/STATIC-CDN-IMG/git/raw/main/Post/Blog/1/20220604173741.png&#34;&gt;&lt;/span&gt;
+          &lt;div class=&#34;info&#34;&gt;
+          &lt;span class=&#34;exturl title&#34; data-url=&#34;aHR0cHM6Ly9sZXRzZW5jcnlwdC5vcmcvemgtY24v&#34;&gt;Letsencrypt&lt;/span&gt;
+          &lt;p class=&#34;desc&#34;&gt;网站SSL服务&lt;/p&gt;
+          &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;tab&#34; data-id=&#34;id1&#34; data-title=&#34;文件服务&#34;&gt;
+&lt;p&gt;&lt;div class=&#34;links&#34;&gt;&lt;div class=&#34;item&#34; title=&#34;Githb&#34; style=&#34;--block-color:#e9546b;&#34;&gt;&lt;span class=&#34;exturl image&#34; data-url=&#34;aHR0cHM6Ly93d3cuZ2l0aHViLmNvbS8=&#34; data-background-image=&#34;https://ramsong.coding.net/p/blog/d/STATIC-CDN-IMG/git/raw/main/Post/Blog/1/favicon.png&#34;&gt;&lt;/span&gt;
+          &lt;div class=&#34;info&#34;&gt;
+          &lt;span class=&#34;exturl title&#34; data-url=&#34;aHR0cHM6Ly93d3cuZ2l0aHViLmNvbS8=&#34;&gt;Github&lt;/span&gt;
+          &lt;p class=&#34;desc&#34;&gt;静态文件备份&lt;/p&gt;
+          &lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;item&#34; title=&#34;腾讯&#34; style=&#34;--block-color:#9d5b8b;&#34;&gt;&lt;span class=&#34;exturl image&#34; data-url=&#34;aHR0cHM6Ly9jb2RpbmcubmV0Lw==&#34; data-background-image=&#34;https://ramsong.coding.net/p/blog/d/STATIC-CDN-IMG/git/raw/main/Post/Blog/1/favicon.ico&#34;&gt;&lt;/span&gt;
+          &lt;div class=&#34;info&#34;&gt;
+          &lt;span class=&#34;exturl title&#34; data-url=&#34;aHR0cHM6Ly9jb2RpbmcubmV0Lw==&#34;&gt;Coding&lt;/span&gt;
+          &lt;p class=&#34;desc&#34;&gt;图片文件主线&lt;/p&gt;
+          &lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;item&#34; title=&#34;Ramsong&#34; style=&#34;--block-color:#e9546b;&#34;&gt;&lt;span class=&#34;exturl image&#34; data-url=&#34;aHR0cHM6Ly9pbWdjZG4ucmFtc29uZy5jbi8=&#34; data-background-image=&#34;https://article.ramsong.cn/images/favicon.ico&#34;&gt;&lt;/span&gt;
+          &lt;div class=&#34;info&#34;&gt;
+          &lt;span class=&#34;exturl title&#34; data-url=&#34;aHR0cHM6Ly9pbWdjZG4ucmFtc29uZy5jbi8=&#34;&gt;Ramsongicdn&lt;/span&gt;
+          &lt;p class=&#34;desc&#34;&gt;私人cdn&lt;/p&gt;
+          &lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;item&#34; title=&#34;Storj&#34; style=&#34;--block-color:#9d5b8b;&#34;&gt;&lt;span class=&#34;exturl image&#34; data-url=&#34;aHR0cHM6Ly93d3cuc3RvcmouaW8v&#34; data-background-image=&#34;https://ramsong.coding.net/p/blog/d/STATIC-CDN-IMG/git/raw/main/Post/Blog/1/60b653c3a0fb71573d2fea90_storj-pride-logo.svg&#34;&gt;&lt;/span&gt;
+          &lt;div class=&#34;info&#34;&gt;
+          &lt;span class=&#34;exturl title&#34; data-url=&#34;aHR0cHM6Ly93d3cuc3RvcmouaW8v&#34;&gt;Storj&lt;/span&gt;
+          &lt;p class=&#34;desc&#34;&gt;大型文件储存服务&lt;/p&gt;
+          &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;span class=&#34;label info&#34;&gt;前言未完，内容持续更新&lt;/span&gt;&lt;/p&gt;
+&lt;p class=&#34;bulr&#34;&gt;!! 下方内容由 Wolai 生成 ！！&lt;/p&gt;
+&lt;h1 id=&#34;吹水历史&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#吹水历史&#34;&gt;#&lt;/a&gt; 吹水历史&lt;/h1&gt;
+&lt;hr /&gt;
+&lt;h2 id=&#34;20210907-️&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#20210907-️&#34;&gt;#&lt;/a&gt; 2021.09.07 ☀️&lt;/h2&gt;
+&lt;hr /&gt;
+&lt;h3 id=&#34;1001&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#1001&#34;&gt;#&lt;/a&gt; 1.0.0.1&lt;/h3&gt;
+&lt;h5 id=&#34;新特性&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#新特性&#34;&gt;#&lt;/a&gt; 新特性&lt;/h5&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;第一次访问 Wordpress 的安装界面&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;开始研究 Wordpress &lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;h2 id=&#34;202109-202111-️&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#202109-202111-️&#34;&gt;#&lt;/a&gt; 2021.09-2021.11 ☀️&lt;/h2&gt;
+&lt;hr /&gt;
+&lt;h3 id=&#34;1020&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#1020&#34;&gt;#&lt;/a&gt; 1.0.2.0&lt;/h3&gt;
+&lt;h5 id=&#34;新特性-2&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#新特性-2&#34;&gt;#&lt;/a&gt; 新特性&lt;/h5&gt;
+&lt;ul&gt;
+&lt;li&gt;简单研究并修改 Wordpress&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;h2 id=&#34;202111左右-️&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#202111左右-️&#34;&gt;#&lt;/a&gt; 2021.11 左右 ☀️&lt;/h2&gt;
+&lt;hr /&gt;
+&lt;h3 id=&#34;1500&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#1500&#34;&gt;#&lt;/a&gt; 1.5.0.0&lt;/h3&gt;
+&lt;h5 id=&#34;新特性-3&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#新特性-3&#34;&gt;#&lt;/a&gt; 新特性&lt;/h5&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;尝试研究&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9naXRodWIuY29tL21pcmFpLW1hbW9yaS9TYWt1cmFpcm8=&#34;&gt; Sakurairo&lt;/span&gt; , &lt;a href=&#34;https://github.com/solstice23/argon-theme&#34; title=&#34;argon-theme&#34;&gt;&lt;strong&gt;argon-theme&lt;/strong&gt;&lt;/a&gt; 等主题&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;版本更替频繁&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;hr /&gt;
+&lt;h2 id=&#34;20211105-1112-️&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#20211105-1112-️&#34;&gt;#&lt;/a&gt; 2021.11.05-11.12 ☀️&lt;/h2&gt;
+&lt;hr /&gt;
+&lt;h3 id=&#34;1590&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#1590&#34;&gt;#&lt;/a&gt; 1.5.9.0&lt;/h3&gt;
+&lt;h5 id=&#34;新特性-4&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#新特性-4&#34;&gt;#&lt;/a&gt; 新特性&lt;/h5&gt;
+&lt;ul&gt;
+&lt;li&gt;使用 Argon 主题&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h5 id=&#34;优化&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#优化&#34;&gt;#&lt;/a&gt; 优化&lt;/h5&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;加入看板娘&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;CN2+GIA 部署至香港&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;邮件支持&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;框架魔改&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h5 id=&#34;缺点&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#缺点&#34;&gt;#&lt;/a&gt; 缺点&lt;/h5&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;宽带低&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Woedpress 太臃肿&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;h2 id=&#34;20211112-️&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#20211112-️&#34;&gt;#&lt;/a&gt; 2021.11.12 ☀️&lt;/h2&gt;
+&lt;hr /&gt;
+&lt;h3 id=&#34;1600&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#1600&#34;&gt;#&lt;/a&gt; 1.6.0.0&lt;/h3&gt;
+&lt;h5 id=&#34;新特性-5&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#新特性-5&#34;&gt;#&lt;/a&gt; 新特性&lt;/h5&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;使用 TYPECHO 部署博客&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;研究 JOE,Handsome (盗版) 等主题&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;h2 id=&#34;20211120-20211127️&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#20211120-20211127️&#34;&gt;#&lt;/a&gt; 2021.11.20 - 2021.11.27☀️&lt;/h2&gt;
+&lt;hr /&gt;
+&lt;h3 id=&#34;1700&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#1700&#34;&gt;#&lt;/a&gt; 1.7.0.0&lt;/h3&gt;
+&lt;h5 id=&#34;新特性-6&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#新特性-6&#34;&gt;#&lt;/a&gt; 新特性&lt;/h5&gt;
+&lt;ul&gt;
+&lt;li&gt;转战 Hexo - butterfly&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;h2 id=&#34;20211127-202202️&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#20211127-202202️&#34;&gt;#&lt;/a&gt;  2021.11.27-2022.02☀️&lt;/h2&gt;
+&lt;hr /&gt;
+&lt;h3 id=&#34;1800&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#1800&#34;&gt;#&lt;/a&gt; 1.8.0.0&lt;/h3&gt;
+&lt;h5 id=&#34;新特性-7&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#新特性-7&#34;&gt;#&lt;/a&gt; 新特性&lt;/h5&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;长期使用 TYPECHO-&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9naXRodWIuY29tL1ppc2J1c3kvQWtpbmEtZm9yLVR5cGVjaG8=&#34;&gt;Akina-for-Typecho&lt;/span&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;简约 高清 整洁&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;看板娘&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h5 id=&#34;优化-2&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#优化-2&#34;&gt;#&lt;/a&gt; 优化：&lt;/h5&gt;
+&lt;ul&gt;
+&lt;li&gt;整体布局大气&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h5 id=&#34;缺点-2&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#缺点-2&#34;&gt;#&lt;/a&gt; 缺点：&lt;/h5&gt;
+&lt;ul&gt;
+&lt;li&gt;未能坚持更新&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;20220521️&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#20220521️&#34;&gt;#&lt;/a&gt; 2022.05.21☀️&lt;/h2&gt;
+&lt;hr /&gt;
+&lt;h3 id=&#34;2000&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#2000&#34;&gt;#&lt;/a&gt; 2.0.0.0！！！&lt;/h3&gt;
+&lt;h5 id=&#34;新特性-8&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#新特性-8&#34;&gt;#&lt;/a&gt; 新特性&lt;/h5&gt;
+&lt;ul&gt;
+&lt;li&gt;博客重构 By Hexo-Shoka&lt;/li&gt;
+&lt;li&gt;二次元元素&lt;/li&gt;
+&lt;li&gt;稳定使用&lt;/li&gt;
+&lt;li&gt;文章将缓慢迁移&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+        <category term="Hexo" scheme="https://blog.ramsong.cn/categories/Hexo/" />
+        <category term="建站" scheme="https://blog.ramsong.cn/categories/Hexo/%E5%BB%BA%E7%AB%99/" />
+        <category term="Hexo" scheme="https://blog.ramsong.cn/tags/Hexo/" />
+        <category term="博客" scheme="https://blog.ramsong.cn/tags/%E5%8D%9A%E5%AE%A2/" />
+        <updated>2022-05-27T16:16:15.000Z</updated>
+    </entry>
+</feed>
