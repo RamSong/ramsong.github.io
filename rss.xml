@@ -10,8 +10,8 @@
         </author>
         <description>学习笔记 &amp; 知识交流</description>
         <language>zh-CN</language>
-        <pubDate>Sat, 28 May 2022 00:16:15 +0800</pubDate>
-        <lastBuildDate>Sat, 28 May 2022 00:16:15 +0800</lastBuildDate>
+        <pubDate>Mon, 04 Jul 2022 15:21:07 +0800</pubDate>
+        <lastBuildDate>Mon, 04 Jul 2022 15:21:07 +0800</lastBuildDate>
         <category term="Web" />
         <category term="前端" />
         <category term="笔记" />
@@ -22,13 +22,27 @@
         <category term="笔记" />
         <category term="html" />
         <item>
-            <guid isPermalink="true">https://blog.ramsong.cn/2022/05/28/cl56e3yh300013kt86r618g55/</guid>
+            <guid isPermalink="true">https://blog.ramsong.cn/2022/07/04/cl56hmvaw0007owt8bnhu1fsf/</guid>
+            <title>在国内环境下申请Freenom免费域名</title>
+            <link>https://blog.ramsong.cn/2022/07/04/cl56hmvaw0007owt8bnhu1fsf/</link>
+            <category term="白嫖" scheme="https://blog.ramsong.cn/categories/%E7%99%BD%E5%AB%96/" />
+            <category term="域名" scheme="https://blog.ramsong.cn/categories/%E7%99%BD%E5%AB%96/%E5%9F%9F%E5%90%8D/" />
+            <category term="域名" scheme="https://blog.ramsong.cn/tags/%E5%9F%9F%E5%90%8D/" />
+            <category term="Freenom" scheme="https://blog.ramsong.cn/tags/Freenom/" />
+            <category term="白嫖" scheme="https://blog.ramsong.cn/tags/%E7%99%BD%E5%AB%96/" />
+            <pubDate>Mon, 04 Jul 2022 15:21:07 +0800</pubDate>
+            <description><![CDATA[ &lt;p&gt;&lt;img data-src=&#34;https://imgcdn.ramsong.cn/Post/Blog/2/hub.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+ ]]></description>
+        </item>
+        <item>
+            <guid isPermalink="true">https://blog.ramsong.cn/2022/05/28/cl56hmvam0006owt81ndshtih/</guid>
             <title>再一次，你好，世界。</title>
-            <link>https://blog.ramsong.cn/2022/05/28/cl56e3yh300013kt86r618g55/</link>
+            <link>https://blog.ramsong.cn/2022/05/28/cl56hmvam0006owt81ndshtih/</link>
             <category term="Hexo" scheme="https://blog.ramsong.cn/categories/Hexo/" />
             <category term="建站" scheme="https://blog.ramsong.cn/categories/Hexo/%E5%BB%BA%E7%AB%99/" />
             <category term="Hexo" scheme="https://blog.ramsong.cn/tags/Hexo/" />
             <category term="博客" scheme="https://blog.ramsong.cn/tags/%E5%8D%9A%E5%AE%A2/" />
+            <category term="建站" scheme="https://blog.ramsong.cn/tags/%E5%BB%BA%E7%AB%99/" />
             <pubDate>Sat, 28 May 2022 00:16:15 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;前言️&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#前言️&#34;&gt;#&lt;/a&gt; 前言🖐️👋&lt;/h1&gt;
 &lt;div class=&#34;note info&#34;&gt;

@@ -8,7 +8,7 @@
     <author>
       <name>Ram-Song</name>
     </author>
-    <updated>2022-05-27T16:16:15.000Z</updated>
+    <updated>2022-07-04T07:21:07.000Z</updated>
     <category term="Web" />
     <category term="前端" />
     <category term="笔记" />
@@ -19,9 +19,22 @@
     <category term="笔记" />
     <category term="html" />
     <entry>
-        <id>https://blog.ramsong.cn/2022/05/28/cl56e3yh300013kt86r618g55/</id>
+        <id>https://blog.ramsong.cn/2022/07/04/cl56hmvaw0007owt8bnhu1fsf/</id>
+        <title>在国内环境下申请Freenom免费域名</title>
+        <link rel="alternate" href="https://blog.ramsong.cn/2022/07/04/cl56hmvaw0007owt8bnhu1fsf/"/>
+        <content type="html">&lt;p&gt;&lt;img data-src=&#34;https://imgcdn.ramsong.cn/Post/Blog/2/hub.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+</content>
+        <category term="白嫖" scheme="https://blog.ramsong.cn/categories/%E7%99%BD%E5%AB%96/" />
+        <category term="域名" scheme="https://blog.ramsong.cn/categories/%E7%99%BD%E5%AB%96/%E5%9F%9F%E5%90%8D/" />
+        <category term="域名" scheme="https://blog.ramsong.cn/tags/%E5%9F%9F%E5%90%8D/" />
+        <category term="Freenom" scheme="https://blog.ramsong.cn/tags/Freenom/" />
+        <category term="白嫖" scheme="https://blog.ramsong.cn/tags/%E7%99%BD%E5%AB%96/" />
+        <updated>2022-07-04T07:21:07.000Z</updated>
+    </entry>
+    <entry>
+        <id>https://blog.ramsong.cn/2022/05/28/cl56hmvam0006owt81ndshtih/</id>
         <title>再一次，你好，世界。</title>
-        <link rel="alternate" href="https://blog.ramsong.cn/2022/05/28/cl56e3yh300013kt86r618g55/"/>
+        <link rel="alternate" href="https://blog.ramsong.cn/2022/05/28/cl56hmvam0006owt81ndshtih/"/>
         <content type="html">&lt;h1 id=&#34;前言️&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#前言️&#34;&gt;#&lt;/a&gt; 前言🖐️👋&lt;/h1&gt;
 &lt;div class=&#34;note info&#34;&gt;
 &lt;p&gt;博客终于建好了🍺🍺&lt;/p&gt;
@@ -212,6 +225,7 @@
         <category term="建站" scheme="https://blog.ramsong.cn/categories/Hexo/%E5%BB%BA%E7%AB%99/" />
         <category term="Hexo" scheme="https://blog.ramsong.cn/tags/Hexo/" />
         <category term="博客" scheme="https://blog.ramsong.cn/tags/%E5%8D%9A%E5%AE%A2/" />
+        <category term="建站" scheme="https://blog.ramsong.cn/tags/%E5%BB%BA%E7%AB%99/" />
         <updated>2022-05-27T16:16:15.000Z</updated>
     </entry>
 </feed>
