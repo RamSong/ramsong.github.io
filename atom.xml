@@ -19,10 +19,62 @@
     <category term="笔记" />
     <category term="html" />
     <entry>
-        <id>https://blog.ramsong.cn/2022/07/04/cl56hmvaw0007owt8bnhu1fsf/</id>
+        <id>https://blog.ramsong.cn/2022/07/04/15/</id>
         <title>在国内环境下申请Freenom免费域名</title>
-        <link rel="alternate" href="https://blog.ramsong.cn/2022/07/04/cl56hmvaw0007owt8bnhu1fsf/"/>
-        <content type="html">&lt;p&gt;&lt;img data-src=&#34;https://imgcdn.ramsong.cn/Post/Blog/2/hub.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+        <link rel="alternate" href="https://blog.ramsong.cn/2022/07/04/15/"/>
+        <content type="html">&lt;p&gt;
+&lt;iframe src=&#34;https://player.bilibili.com/player.html?aid=635443680&amp;bvid=BV1zb4y1n7sX&amp;cid=476068315&amp;page=1&#34; allowfullscreen=&#34;allowfullscreen&#34; width=&#34;100%&#34; height=&#34;500&#34; scrolling=&#34;no&#34; frameborder=&#34;0&#34; sandbox=&#34;allow-top-navigation allow-same-origin allow-forms allow-scripts&#34;&gt;&lt;/iframe&gt;
+
+&lt;/p&gt;
+&lt;h1 id=&#34;前言&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#前言&#34;&gt;#&lt;/a&gt; 前言&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cuZnJlZW5vbS5jb20v&#34;&gt;Freenom&lt;/span&gt; 自称是世界上第一个也是唯一的免费域名提供商。 它们说它们的使命是把互联网带给世界人民，帮助各国发展自己的数字经济。&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&#34;note default&#34;&gt;
+&lt;p&gt;官网介绍&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://imgcdn.ramsong.cn/Post/Blog/2/abfreenom.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;对于想低成本搭建网站，或者搭建一些测试项目，那么使用一个低成本的域名乃至免费的域名还是很有必要的。&lt;/p&gt;
+&lt;p&gt;平台一共有 5 个免费的顶级域名&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt; .tk 域名是南太平洋岛国托克劳的后缀, 
+ .cf 域名是中非共和国的后缀, 
+ .ml 域名是非洲国家马里的后缀, 
+ .ga 域名是加蓬国家顶级域名后缀, 
+ .gq 域名是赤道几内亚国家地区后缀。
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h1 id=&#34;环境准备&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#环境准备&#34;&gt;#&lt;/a&gt; 环境准备&lt;/h1&gt;
+&lt;h4 id=&#34;why&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#why&#34;&gt;#&lt;/a&gt; Why？&lt;/h4&gt;
+&lt;p&gt;Freenom 的验证使用的是 Google 的 ReCAPTCHA ，由于国内 GFW 的功劳，ReCAPTCHA 无法在国内使用（特供版，镜像源除外）&lt;/p&gt;
+&lt;p&gt;但是 Freenom 的购买需要 ReCAPTCHA 的参与，So 我们需要把 ReCAPTCHA（&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9nb29nbGUuY29tL3JlY2FwdGNoYQ==&#34;&gt;google.com/recaptcha&lt;/span&gt;）重写到 ReCaptcha 国内镜像（&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9yZWNhcHRjaGEubmV0L3JlY2FwdGNoYQ==&#34;&gt;recaptcha.net/recaptcha&lt;/span&gt;）上&lt;/p&gt;
+&lt;h4 id=&#34;插件安装&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#插件安装&#34;&gt;#&lt;/a&gt; 插件安装&lt;/h4&gt;
+&lt;p&gt;浏览器重写插件有很多，这里使用 &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9oZS5maXJlZm94Y24ubmV0Lw==&#34;&gt;Header Editor&lt;/span&gt;&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;浏览器&lt;/th&gt;
+&lt;th&gt;安装&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;img data-src=&#34;https://cdn.staticfile.org/browser-logos/58.1.3/firefox/firefox_16x16.png&#34; alt=&#34;Firefox Logo&#34; /&gt; Firefox&lt;/td&gt;
+&lt;td&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9hZGRvbnMubW96aWxsYS5vcmcvZW4tVVMvZmlyZWZveC9hZGRvbi9oZWFkZXItZWRpdG9yLw==&#34;&gt;Mozilla Add-on&lt;/span&gt; 或 &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9naXRodWIuY29tL0ZpcmVmb3hCYXIvSGVhZGVyRWRpdG9yL3JlbGVhc2Vz&#34;&gt;Github 自分发版本&lt;/span&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;img data-src=&#34;https://cdn.staticfile.org/browser-logos/58.1.3/chrome/chrome_16x16.png&#34; alt=&#34;Chrome Logo&#34; /&gt; Chrome&lt;/td&gt;
+&lt;td&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9jaHJvbWUuZ29vZ2xlLmNvbS93ZWJzdG9yZS9kZXRhaWwvaGVhZGVyLWVkaXRvci9lbmluZ29ja2RpZG1naW9qZmZqbWtkYmxwam9jYmhnaA==&#34;&gt;Chrome Web Store&lt;/span&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;img data-src=&#34;https://cdn.staticfile.org/browser-logos/58.1.3/edge/edge_16x16.png&#34; alt=&#34;Edge Logo&#34; /&gt; Edge(Chromium)&lt;/td&gt;
+&lt;td&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9jaHJvbWUuZ29vZ2xlLmNvbS93ZWJzdG9yZS9kZXRhaWwvaGVhZGVyLWVkaXRvci9lbmluZ29ja2RpZG1naW9qZmZqbWtkYmxwam9jYmhnaA==&#34;&gt;Chrome Web Store&lt;/span&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;我这里下了个 &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9nY2RuLnJhbXNvbmcuY24vYmlsaWJpbGkvRnJlZW5vbS9IZWFkZXIlMjBFZGl0b3JfdjQuMS4xLmNyeA==&#34;&gt;crx 文件&lt;/span&gt;&lt;/p&gt;
+&lt;h4 id=&#34;规则写入&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#规则写入&#34;&gt;#&lt;/a&gt; 规则写入&lt;/h4&gt;
+&lt;p&gt;点击插件，进入管理界面，依次点击 - 导出与导入 - 下载规则 - 保存&lt;/p&gt;
+&lt;p&gt;规则  &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9nY2RuLnJhbXNvbmcuY24vYmlsaWJpbGkvRnJlZW5vbS9Hb29nbGVSZWRpcmVjdC5qc29u&#34;&gt;https://gcdn.ramsong.cn/bilibili/Freenom/GoogleRedirect.json&lt;/span&gt;&lt;/p&gt;
+&lt;h4 id=&#34;&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#&#34;&gt;#&lt;/a&gt; &lt;img data-src=&#34;https://imgcdn.ramsong.cn/Post/Blog/2/cha-set.png&#34; alt=&#34;&#34; /&gt;&lt;/h4&gt;
+&lt;h1 id=&#34;域名选择&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#域名选择&#34;&gt;#&lt;/a&gt; 域名选择&lt;/h1&gt;
+&lt;p&gt;打开 Freenom 官网 &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cuZnJlZW5vbS5jb20v&#34;&gt;https://www.freenom.com/&lt;/span&gt;&lt;/p&gt;
 </content>
         <category term="白嫖" scheme="https://blog.ramsong.cn/categories/%E7%99%BD%E5%AB%96/" />
         <category term="域名" scheme="https://blog.ramsong.cn/categories/%E7%99%BD%E5%AB%96/%E5%9F%9F%E5%90%8D/" />
@@ -32,9 +84,9 @@
         <updated>2022-07-04T07:21:07.000Z</updated>
     </entry>
     <entry>
-        <id>https://blog.ramsong.cn/2022/05/28/cl56hmvam0006owt81ndshtih/</id>
+        <id>https://blog.ramsong.cn/2022/05/28/00/</id>
         <title>再一次，你好，世界。</title>
-        <link rel="alternate" href="https://blog.ramsong.cn/2022/05/28/cl56hmvam0006owt81ndshtih/"/>
+        <link rel="alternate" href="https://blog.ramsong.cn/2022/05/28/00/"/>
         <content type="html">&lt;h1 id=&#34;前言️&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#前言️&#34;&gt;#&lt;/a&gt; 前言🖐️👋&lt;/h1&gt;
 &lt;div class=&#34;note info&#34;&gt;
 &lt;p&gt;博客终于建好了🍺🍺&lt;/p&gt;
