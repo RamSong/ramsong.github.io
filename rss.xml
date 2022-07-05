@@ -35,6 +35,11 @@
 &lt;iframe src=&#34;https://player.bilibili.com/player.html?aid=635443680&amp;bvid=BV1zb4y1n7sX&amp;cid=476068315&amp;page=1&#34; allowfullscreen=&#34;allowfullscreen&#34; width=&#34;100%&#34; height=&#34;500&#34; scrolling=&#34;no&#34; frameborder=&#34;0&#34; sandbox=&#34;allow-top-navigation allow-same-origin allow-forms allow-scripts&#34;&gt;&lt;/iframe&gt;
 
 &lt;/p&gt;
+&lt;h1 id=&#34;要求&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#要求&#34;&gt;#&lt;/a&gt; 要求&lt;/h1&gt;
+&lt;p&gt;1. 一个能访问网页的设备&lt;/p&gt;
+&lt;p&gt;2. 一个 IP 和 与 IP 地址对应的 &lt;strong&gt;真实&lt;/strong&gt; 个人资料&lt;/p&gt;
+&lt;p&gt;3. 一个邮箱&lt;/p&gt;
+&lt;p&gt;（主要是注册 Freenom 账号 和 CloudFlare 账号 ）&lt;/p&gt;
 &lt;h1 id=&#34;前言&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#前言&#34;&gt;#&lt;/a&gt; 前言&lt;/h1&gt;
 &lt;p&gt;&lt;strong&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cuZnJlZW5vbS5jb20v&#34;&gt;Freenom&lt;/span&gt; 自称是世界上第一个也是唯一的免费域名提供商。 它们说它们的使命是把互联网带给世界人民，帮助各国发展自己的数字经济。&lt;/strong&gt;&lt;/p&gt;
 &lt;div class=&#34;note default&#34;&gt;
@@ -82,8 +87,32 @@
 &lt;p&gt;点击插件，进入管理界面，依次点击 - 导出与导入 - 下载规则 - 保存&lt;/p&gt;
 &lt;p&gt;规则  &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9nY2RuLnJhbXNvbmcuY24vYmlsaWJpbGkvRnJlZW5vbS9Hb29nbGVSZWRpcmVjdC5qc29u&#34;&gt;https://gcdn.ramsong.cn/bilibili/Freenom/GoogleRedirect.json&lt;/span&gt;&lt;/p&gt;
 &lt;h4 id=&#34;&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#&#34;&gt;#&lt;/a&gt; &lt;img data-src=&#34;https://imgcdn.ramsong.cn/Post/Blog/2/cha-set.png&#34; alt=&#34;&#34; /&gt;&lt;/h4&gt;
+&lt;p&gt;之后保持规则启用即可&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://imgcdn.ramsong.cn/Post/Blog/2/cha-hub2.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 &lt;h1 id=&#34;域名选择&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#域名选择&#34;&gt;#&lt;/a&gt; 域名选择&lt;/h1&gt;
 &lt;p&gt;打开 Freenom 官网 &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cuZnJlZW5vbS5jb20v&#34;&gt;https://www.freenom.com/&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;随便输入一个域名，建议加上后缀 (&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cDovL3h4eC50ay9tbC9nYS9jZi9ncQ==&#34;&gt;xxx.tk/ml/ga/cf/gq&lt;/span&gt;)，否则可能&lt;strong&gt;无法选择&lt;/strong&gt;，网页有 Bug。&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://imgcdn.ramsong.cn/Post/Blog/2/freenom-g.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;这里随便输入了一个域名，直接点击完成&lt;/p&gt;
+&lt;p&gt;这边可以看到右下角谷歌的 ReCAPTCHA 协议已经出来了&lt;/p&gt;
+&lt;p&gt;接着我们选择时间，调为 12 个月&lt;/p&gt;
+&lt;p&gt;（12 个月免费，1 年 9.95USD，........）&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://imgcdn.ramsong.cn/Post/Blog/2/freenom-xuan.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;点击 &lt;strong&gt;Continue&lt;/strong&gt; 进入下一步&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://imgcdn.ramsong.cn/Post/Blog/2/freenom-you.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;来到这个界面，在这输入邮箱后会有一封验证电子邮件发给你&lt;/p&gt;
+&lt;p&gt;&lt;ins&gt;有些邮箱发送不了，换一个就可以了&lt;/ins&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://imgcdn.ramsong.cn/Post/Blog/2/freenom-yanmail.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;点击这封邮件来到注册界面&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://imgcdn.ramsong.cn/Post/Blog/2/freenom-ziliao.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;mark&gt;可以使用各种信息生成器&lt;/mark&gt;&lt;/p&gt;
+&lt;div class=&#34;note warning&#34;&gt;
+&lt;p&gt;填写信息的地址务必要与你现在的 IP 归属地相符&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;然后点击下一步&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://imgcdn.ramsong.cn/Post/Blog/2/freenom-shenok.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;出现这个就代表你的域名申请成功了&lt;/p&gt;
+&lt;h1 id=&#34;域名转移&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#域名转移&#34;&gt;#&lt;/a&gt; 域名转移&lt;/h1&gt;
  ]]></description>
         </item>
         <item>
