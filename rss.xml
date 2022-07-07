@@ -55,10 +55,10 @@
  .gq 域名是赤道几内亚国家地区后缀。
 &lt;/code&gt;&lt;/pre&gt;
 &lt;h1 id=&#34;环境准备&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#环境准备&#34;&gt;#&lt;/a&gt; 环境准备&lt;/h1&gt;
-&lt;h4 id=&#34;why&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#why&#34;&gt;#&lt;/a&gt; Why？&lt;/h4&gt;
+&lt;h2 id=&#34;why&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#why&#34;&gt;#&lt;/a&gt; Why？&lt;/h2&gt;
 &lt;p&gt;Freenom 的验证使用的是 Google 的 ReCAPTCHA ，由于国内 GFW 的功劳，ReCAPTCHA 无法在国内使用（特供版，镜像源除外）&lt;/p&gt;
 &lt;p&gt;但是 Freenom 的购买需要 ReCAPTCHA 的参与，So 我们需要把 ReCAPTCHA（&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9nb29nbGUuY29tL3JlY2FwdGNoYQ==&#34;&gt;google.com/recaptcha&lt;/span&gt;）重写到 ReCaptcha 国内镜像（&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9yZWNhcHRjaGEubmV0L3JlY2FwdGNoYQ==&#34;&gt;recaptcha.net/recaptcha&lt;/span&gt;）上&lt;/p&gt;
-&lt;h4 id=&#34;插件安装&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#插件安装&#34;&gt;#&lt;/a&gt; 插件安装&lt;/h4&gt;
+&lt;h2 id=&#34;插件安装&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#插件安装&#34;&gt;#&lt;/a&gt; 插件安装&lt;/h2&gt;
 &lt;p&gt;浏览器重写插件有很多，这里使用 &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9oZS5maXJlZm94Y24ubmV0Lw==&#34;&gt;Header Editor&lt;/span&gt;&lt;/p&gt;
 &lt;table&gt;
 &lt;thead&gt;
@@ -83,7 +83,7 @@
 &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;p&gt;我这里下了个 &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9nY2RuLnJhbXNvbmcuY24vYmlsaWJpbGkvRnJlZW5vbS9IZWFkZXIlMjBFZGl0b3JfdjQuMS4xLmNyeA==&#34;&gt;crx 文件&lt;/span&gt;&lt;/p&gt;
-&lt;h4 id=&#34;规则写入&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#规则写入&#34;&gt;#&lt;/a&gt; 规则写入&lt;/h4&gt;
+&lt;h2 id=&#34;规则写入&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#规则写入&#34;&gt;#&lt;/a&gt; 规则写入&lt;/h2&gt;
 &lt;p&gt;点击插件，进入管理界面，依次点击 - 导出与导入 - 下载规则 - 保存&lt;/p&gt;
 &lt;p&gt;规则  &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9nY2RuLnJhbXNvbmcuY24vYmlsaWJpbGkvRnJlZW5vbS9Hb29nbGVSZWRpcmVjdC5qc29u&#34;&gt;https://gcdn.ramsong.cn/bilibili/Freenom/GoogleRedirect.json&lt;/span&gt;&lt;/p&gt;
 &lt;h4 id=&#34;&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#&#34;&gt;#&lt;/a&gt; &lt;img data-src=&#34;https://imgcdn.ramsong.cn/Post/Blog/2/cha-set.png&#34; alt=&#34;&#34; /&gt;&lt;/h4&gt;
@@ -113,6 +113,40 @@
 &lt;p&gt;&lt;img data-src=&#34;https://imgcdn.ramsong.cn/Post/Blog/2/freenom-shenok.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;出现这个就代表你的域名申请成功了&lt;/p&gt;
 &lt;h1 id=&#34;域名转移&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#域名转移&#34;&gt;#&lt;/a&gt; 域名转移&lt;/h1&gt;
+&lt;h2 id=&#34;简介&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#简介&#34;&gt;#&lt;/a&gt; 简介&lt;/h2&gt;
+&lt;p&gt;由于 Freenom 自带的解析系统太 ” 厉害 “ 了，所以我们需要使用其它解析商进行 DNS 解析。&lt;/p&gt;
+&lt;p&gt;这里推荐两家， &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cuZG5zcG9kLmNuLw==&#34;&gt;DNSPOD（cn）&lt;/span&gt; 和 &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9jbG91ZGZsYXJlLmNvbS8=&#34;&gt;CLOUDFLARE&lt;/span&gt; 。&lt;/p&gt;
+&lt;p&gt;DNSPOD 已经被腾讯收购，二次加工后，DNSPOD 的速度也不错，特别是在国内，但由于是腾讯经营，所以注册要手机号，解析好些也要实名，国际版我没用过......&lt;/p&gt;
+&lt;p&gt;CLOUDFLARE 是全球最大的 DNS 解析商，并且提供免费的 CDN 和防御等，反正很 nb，注册也很简单，仅需邮箱账号......&lt;/p&gt;
+&lt;h2 id=&#34;实操&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#实操&#34;&gt;#&lt;/a&gt; 实操&lt;/h2&gt;
+&lt;p&gt;这里使用 CLOUDFLARE 进行演示&lt;/p&gt;
+&lt;p&gt;打开 &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9jbG91ZGZsYXJlLmNvbS8=&#34;&gt;CLOUDFLARE 官网&lt;/span&gt;  ，注册过程不再演示，进入主页面后，点击添加站点&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://imgcdn.ramsong.cn/Post/Blog/2/cloudflare-add1.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;输入你的域名，添加。&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://imgcdn.ramsong.cn/Post/Blog/2/cloudflare-add2.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;选择免费计划（当然你有钱当我没说）&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://imgcdn.ramsong.cn/Post/Blog/2/cf-xuan.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;之后一路继续来到这个界面&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://imgcdn.ramsong.cn/Post/Blog/2/cf-fuzhi.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;现在返回 &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cuZnJlZW5vbS5jb20v&#34;&gt;Freenom&lt;/span&gt; 点击顶部的 Servies-My Domain&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://imgcdn.ramsong.cn/Post/Blog/2/freenom-gai1.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;点击你需要管理的域名右边的 Manage Domain，进入这个界面&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://imgcdn.ramsong.cn/Post/Blog/2/freenom-gaiguan.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;选择 Management Tools - Nameservers&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://imgcdn.ramsong.cn/Post/Blog/2/freenom-dns.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;把 CLOUDFLARE 给的 DNS 地址 填进来就可以了&lt;/p&gt;
+&lt;p&gt;然后就是漫长等待，成功之后 cloudflare 会给你发&lt;em&gt;邮件提醒&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;域名这样显示就代表成功了&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://imgcdn.ramsong.cn/Post/Blog/2/domainok.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;之后你就可以&lt;strong&gt;自由解析&lt;/strong&gt;了&lt;/p&gt;
+&lt;h1 id=&#34;链接汇总&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#链接汇总&#34;&gt;#&lt;/a&gt; 链接汇总&lt;/h1&gt;
+&lt;details class=&#34;info&#34;&gt;&lt;summary&gt;蓝色&lt;/summary&gt;&lt;div&gt;
+&lt;p&gt;Freenom：&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cuZnJlZW5vbS5jb20v&#34;&gt;https://www.freenom.com/&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Cloudflare：&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cuY2xvdWRmbGFyZS5jb20v&#34;&gt;https://www.cloudflare.com/&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Dnspod : &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cuZG5zcG9kLmNuLw==&#34;&gt;https://www.dnspod.cn/&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Header Editor : &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9oZS5maXJlZm94Y24ubmV0Lw==&#34;&gt;https://he.firefoxcn.net/&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;规则：&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9nY2RuLnJhbXNvbmcuY24vYmlsaWJpbGkvRnJlZW5vbS9Hb29nbGVSZWRpcmVjdC5qc29u&#34;&gt;https://gcdn.ramsong.cn/bilibili/Freenom/GoogleRedirect.json&lt;/span&gt;&lt;/p&gt;
+&lt;/div&gt;&lt;/details&gt;
  ]]></description>
         </item>
         <item>
